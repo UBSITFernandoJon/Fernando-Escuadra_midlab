@@ -19,17 +19,36 @@
     </header>
     <main>
         <!--Main Content-->
-        <section class="main-column">
-            <h1>Login</h1>
-            <h3>Column Heading</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque asperiores, odit dolorum, reprehenderit cupiditate nemo at laboriosam suscipit est quae nostrum vel assumenda esse quod exercitationem eos hic veritatis libero?</p>
-        </section>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Login Form</legend>
+                <p>
+                    <label for="name">Username: </label>
+                    <input type="text" id="name" name="name" required>
+                </p>
+                <p> <!--Login Form-->
+                    <label for="password">Password: </label>
+                    <input type="text" name="password" id="password" required>
+                </p>
+                <div class="container">
+                    <span class="Create acc"><a href="error.html">Create an Account?</a></span>
+                </div>
+                <div class="container">
+                    <span class="Fpass"><a href="error.html">Forgot password?</a></span>
+                </div>
+            </fieldset>
+            <p>
+                <input type="submit" value="Login">
+            </p>
+        </form>
     </main>
     <footer>
         <ul>
-            <li>Contact 12345678 for more Information</li>
-            <li>SocMed</li>
-            <li>Copyright Notice</li>
+            <nav>
+                <li>Contact 12345678 for more Information</li>
+                <li>Social media</li>
+                <li>Copyright</li>
+            </nav>
         </ul>
     </footer>
 </body>
