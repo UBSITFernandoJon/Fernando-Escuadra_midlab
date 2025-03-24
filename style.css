@@ -31,6 +31,11 @@ main {
 }
 .main-column{
     flex: 3;
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
 }
 
 
@@ -39,11 +44,15 @@ main {
 
 
 footer{
-    background: #0042CB;
+    background: #787489;
     color: white;
     text-align: center;
     padding: 10px 0;
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+section{
+    align-content: top center;
 }
