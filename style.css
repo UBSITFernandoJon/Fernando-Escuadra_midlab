@@ -32,3 +32,18 @@ main {
 .main-column{
     flex: 3;
 }
+
+
+
+
+
+
+footer{
+    background: #0042CB;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
