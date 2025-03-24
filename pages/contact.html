@@ -9,6 +9,7 @@
     <header>
         <nav>
             <ul>
+                <img class="logo" src="/assets/Add_a_heading.png" alt="Website logo">
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
@@ -20,19 +21,39 @@
     <main>
         <!--Main Content-->
         <section class="main-column">
-            <h1>Contact Us</h1>
-            <h3>Column Heading</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque asperiores, odit dolorum, reprehenderit cupiditate nemo at laboriosam suscipit est quae nostrum vel assumenda esse quod exercitationem eos hic veritatis libero?</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+    
+                <button type="submit">Send Message</button>
+            </form>
+            <section class="contact-details">
+                <p>Email:Baguio.@s.ubaguio.edu</p>
+                <p>Phone: +123 456 7890</p>
+                <p>Address: Baguio City</p>
+            </section>
         </section>
     </main>
     <footer>
-        <ul>
-            <nav>
-                <li>Contact 12345678 for more Information</li>
-                <li>Social media</li>
-                <li>Copyright</li>
-            </nav>
-        </ul>
+        <p><strong>CONTACT US AT</strong>
+        
+            <br>Escuadra, Shawn Kirby C.
+            <br>Email: 20243641@s.ubaguio.edu
+            <br><a href="https://Facebook.com" target="_blank">Facebook</a> | <a href="https://Instagram.com" target="_blank">Instagram</a> | <a href="https://x.com" target="_blank">X</a>
+            <br>Fernando, Jon Emmanuel S.
+            <br>Email: 20226525@s.ubaguio.edu
+            <br><a href="https://Facebook.com" target="_blank">Facebook</a> | <a href="https://Instagram.com" target="_blank">Instagram</a> | <a href="https://x.com" target="_blank">X</a>
+            </p>
+    <p>&copy; Escuadra & Fernando 2025 All Rights Reserved.</p>
     </footer>
 </body>
 </html>
